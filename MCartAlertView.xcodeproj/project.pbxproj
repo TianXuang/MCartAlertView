@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79EF2A9B1E669A630008168F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2A9A1E669A630008168F /* main.m */; };
+		79EF2A9E1E669A630008168F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2A9D1E669A630008168F /* AppDelegate.m */; };
+		79EF2AA11E669A630008168F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2AA01E669A630008168F /* ViewController.m */; };
+		79EF2AA41E669A630008168F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF2AA21E669A630008168F /* Main.storyboard */; };
+		79EF2AA61E669A630008168F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF2AA51E669A630008168F /* Assets.xcassets */; };
+		79EF2AA91E669A630008168F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EF2AA71E669A630008168F /* LaunchScreen.storyboard */; };
+		79EF2AB41E669A630008168F /* MCartAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2AB31E669A630008168F /* MCartAlertViewTests.m */; };
+		79EF2ABF1E669A630008168F /* MCartAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2ABE1E669A630008168F /* MCartAlertViewUITests.m */; };
+		79EF2ACE1E669ADA0008168F /* MCartAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EF2ACD1E669ADA0008168F /* MCartAlertView.m */; };
+		79FE49301E67AF3F001806C4 /* manfly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79FE492F1E67AF3F001806C4 /* manfly.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79EF2AB01E669A630008168F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EF2A8E1E669A630008168F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EF2A951E669A630008168F;
+			remoteInfo = MCartAlertView;
+		};
+		79EF2ABB1E669A630008168F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EF2A8E1E669A630008168F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EF2A951E669A630008168F;
+			remoteInfo = MCartAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79EF2A961E669A630008168F /* MCartAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCartAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF2A9A1E669A630008168F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79EF2A9C1E669A630008168F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79EF2A9D1E669A630008168F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79EF2A9F1E669A630008168F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79EF2AA01E669A630008168F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79EF2AA31E669A630008168F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79EF2AA51E669A630008168F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79EF2AA81E669A630008168F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79EF2AAA1E669A630008168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF2AAF1E669A630008168F /* MCartAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCartAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF2AB31E669A630008168F /* MCartAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCartAlertViewTests.m; sourceTree = "<group>"; };
+		79EF2AB51E669A630008168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF2ABA1E669A630008168F /* MCartAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCartAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EF2ABE1E669A630008168F /* MCartAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCartAlertViewUITests.m; sourceTree = "<group>"; };
+		79EF2AC01E669A630008168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EF2ACC1E669ADA0008168F /* MCartAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCartAlertView.h; sourceTree = "<group>"; };
+		79EF2ACD1E669ADA0008168F /* MCartAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCartAlertView.m; sourceTree = "<group>"; };
+		79FE492F1E67AF3F001806C4 /* manfly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = manfly.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EF2A931E669A630008168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AAC1E669A630008168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AB71E669A630008168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EF2A8D1E669A630008168F = {
+			isa = PBXGroup;
+			children = (
+				79EF2A981E669A630008168F /* MCartAlertView */,
+				79EF2AB21E669A630008168F /* MCartAlertViewTests */,
+				79EF2ABD1E669A630008168F /* MCartAlertViewUITests */,
+				79EF2A971E669A630008168F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EF2A971E669A630008168F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EF2A961E669A630008168F /* MCartAlertView.app */,
+				79EF2AAF1E669A630008168F /* MCartAlertViewTests.xctest */,
+				79EF2ABA1E669A630008168F /* MCartAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EF2A981E669A630008168F /* MCartAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				79FE492F1E67AF3F001806C4 /* manfly.plist */,
+				79EF2A9C1E669A630008168F /* AppDelegate.h */,
+				79EF2A9D1E669A630008168F /* AppDelegate.m */,
+				79EF2A9F1E669A630008168F /* ViewController.h */,
+				79EF2AA01E669A630008168F /* ViewController.m */,
+				79EF2ACC1E669ADA0008168F /* MCartAlertView.h */,
+				79EF2ACD1E669ADA0008168F /* MCartAlertView.m */,
+				79EF2AA21E669A630008168F /* Main.storyboard */,
+				79EF2AA51E669A630008168F /* Assets.xcassets */,
+				79EF2AA71E669A630008168F /* LaunchScreen.storyboard */,
+				79EF2AAA1E669A630008168F /* Info.plist */,
+				79EF2A991E669A630008168F /* Supporting Files */,
+			);
+			path = MCartAlertView;
+			sourceTree = "<group>";
+		};
+		79EF2A991E669A630008168F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EF2A9A1E669A630008168F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79EF2AB21E669A630008168F /* MCartAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				79EF2AB31E669A630008168F /* MCartAlertViewTests.m */,
+				79EF2AB51E669A630008168F /* Info.plist */,
+			);
+			path = MCartAlertViewTests;
+			sourceTree = "<group>";
+		};
+		79EF2ABD1E669A630008168F /* MCartAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79EF2ABE1E669A630008168F /* MCartAlertViewUITests.m */,
+				79EF2AC01E669A630008168F /* Info.plist */,
+			);
+			path = MCartAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EF2A951E669A630008168F /* MCartAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EF2AC31E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertView" */;
+			buildPhases = (
+				79EF2A921E669A630008168F /* Sources */,
+				79EF2A931E669A630008168F /* Frameworks */,
+				79EF2A941E669A630008168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCartAlertView;
+			productName = MCartAlertView;
+			productReference = 79EF2A961E669A630008168F /* MCartAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79EF2AAE1E669A630008168F /* MCartAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EF2AC61E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertViewTests" */;
+			buildPhases = (
+				79EF2AAB1E669A630008168F /* Sources */,
+				79EF2AAC1E669A630008168F /* Frameworks */,
+				79EF2AAD1E669A630008168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EF2AB11E669A630008168F /* PBXTargetDependency */,
+			);
+			name = MCartAlertViewTests;
+			productName = MCartAlertViewTests;
+			productReference = 79EF2AAF1E669A630008168F /* MCartAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79EF2AB91E669A630008168F /* MCartAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EF2AC91E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertViewUITests" */;
+			buildPhases = (
+				79EF2AB61E669A630008168F /* Sources */,
+				79EF2AB71E669A630008168F /* Frameworks */,
+				79EF2AB81E669A630008168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EF2ABC1E669A630008168F /* PBXTargetDependency */,
+			);
+			name = MCartAlertViewUITests;
+			productName = MCartAlertViewUITests;
+			productReference = 79EF2ABA1E669A630008168F /* MCartAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EF2A8E1E669A630008168F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VeLink;
+				TargetAttributes = {
+					79EF2A951E669A630008168F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					79EF2AAE1E669A630008168F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79EF2A951E669A630008168F;
+					};
+					79EF2AB91E669A630008168F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79EF2A951E669A630008168F;
+					};
+				};
+			};
+			buildConfigurationList = 79EF2A911E669A630008168F /* Build configuration list for PBXProject "MCartAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79EF2A8D1E669A630008168F;
+			productRefGroup = 79EF2A971E669A630008168F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EF2A951E669A630008168F /* MCartAlertView */,
+				79EF2AAE1E669A630008168F /* MCartAlertViewTests */,
+				79EF2AB91E669A630008168F /* MCartAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EF2A941E669A630008168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF2AA91E669A630008168F /* LaunchScreen.storyboard in Resources */,
+				79FE49301E67AF3F001806C4 /* manfly.plist in Resources */,
+				79EF2AA61E669A630008168F /* Assets.xcassets in Resources */,
+				79EF2AA41E669A630008168F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AAD1E669A630008168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AB81E669A630008168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EF2A921E669A630008168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF2AA11E669A630008168F /* ViewController.m in Sources */,
+				79EF2ACE1E669ADA0008168F /* MCartAlertView.m in Sources */,
+				79EF2A9E1E669A630008168F /* AppDelegate.m in Sources */,
+				79EF2A9B1E669A630008168F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AAB1E669A630008168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF2AB41E669A630008168F /* MCartAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EF2AB61E669A630008168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF2ABF1E669A630008168F /* MCartAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79EF2AB11E669A630008168F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EF2A951E669A630008168F /* MCartAlertView */;
+			targetProxy = 79EF2AB01E669A630008168F /* PBXContainerItemProxy */;
+		};
+		79EF2ABC1E669A630008168F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EF2A951E669A630008168F /* MCartAlertView */;
+			targetProxy = 79EF2ABB1E669A630008168F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79EF2AA21E669A630008168F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EF2AA31E669A630008168F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79EF2AA71E669A630008168F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79EF2AA81E669A630008168F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79EF2AC11E669A630008168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79EF2AC21E669A630008168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EF2AC41E669A630008168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCartAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79EF2AC51E669A630008168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCartAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79EF2AC71E669A630008168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCartAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCartAlertView.app/MCartAlertView";
+			};
+			name = Debug;
+		};
+		79EF2AC81E669A630008168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCartAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCartAlertView.app/MCartAlertView";
+			};
+			name = Release;
+		};
+		79EF2ACA1E669A630008168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCartAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCartAlertView;
+			};
+			name = Debug;
+		};
+		79EF2ACB1E669A630008168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCartAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velink.MCartAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCartAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EF2A911E669A630008168F /* Build configuration list for PBXProject "MCartAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF2AC11E669A630008168F /* Debug */,
+				79EF2AC21E669A630008168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EF2AC31E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF2AC41E669A630008168F /* Debug */,
+				79EF2AC51E669A630008168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EF2AC61E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF2AC71E669A630008168F /* Debug */,
+				79EF2AC81E669A630008168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EF2AC91E669A630008168F /* Build configuration list for PBXNativeTarget "MCartAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EF2ACA1E669A630008168F /* Debug */,
+				79EF2ACB1E669A630008168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79EF2A8E1E669A630008168F /* Project object */;
+}
